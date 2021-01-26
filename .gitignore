@@ -1,0 +1,10 @@
+# ignore dependency directories
+node_modules/
+
+# ignore Editor files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.idea/
+
+readme.txt

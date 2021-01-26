@@ -1,0 +1,38 @@
+.slider
+	.swiper-button-next,
+	.swiper-button-prev
+		top: 40%
+
+	.swiper-pagination
+		position: initial
+		&-bullet
+			margin-right: 5px
+
+	&-block
+		z-index: 0
+		&__image-list
+			display: flex
+			flex-wrap: wrap
+			&__item
+				border: 1px solid rgba(0,0,0,0.1)
+				padding: 10px
+				margin-right: 10px
+				margin-bottom: 10px
+				position: relative
+				img
+					max-width: 100px
+				&_remove
+					position: absolute
+					top: 0
+					right: 0
+			&__move-arrow
+				cursor: pointer
+			&__add-item
+				height: 36px
+				border-radius: 6px
+				margin-top: 10px
+				background-color: #007aff
+				border-color: #007aff
+				span
+					color: #fff
+
